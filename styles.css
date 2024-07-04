@@ -13,8 +13,8 @@ h1{
     text-align: center;
 }
 #heading-parent{
-    /* background-image:linear-gradient(70deg, rgb(200, 54, 129) ,rgb(44, 147, 170)); */
-    background-image:linear-gradient(45deg,rgb(214, 57, 198),transparent), url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFvd2RpbGRzd2oxZ2o4MDl5bWtpc3U4dDVwOXVxajZoNTA4N2hjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xzkvl1siB2rHSo/giphy.webp");
+    background-image:linear-gradient(70deg, rgb(200, 54, 129) ,rgb(44, 147, 170));
+    /* background-image:linear-gradient(45deg,rgb(214, 57, 198),transparent), url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFvd2RpbGRzd2oxZ2o4MDl5bWtpc3U4dDVwOXVxajZoNTA4N2hjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xzkvl1siB2rHSo/giphy.webp"); */
     height: 1100px;
     padding: 100px 0;
     max-width: 1100px;
@@ -50,4 +50,7 @@ h1{
 .btn-parent{
     text-align: center;
     margin:300px 0px;
+}
+.btn:hover{
+    background-color:rgb(20, 201, 165) ;
 }
