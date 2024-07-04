@@ -4,20 +4,25 @@
 }
 h1{
     /* All about text Styling */
-    color: blue;
+    background-image: linear-gradient(45deg,purple,transparent);
     font-style:italic;
     font-weight: lighter;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: "Cinzel", serif;
     text-decoration:overline;
     font-size: 80px;
     text-align: center;
 }
 #heading-parent{
-    background-color: rgb(35, 134, 101);
+    /* background-image:linear-gradient(70deg, rgb(200, 54, 129) ,rgb(44, 147, 170)); */
+    background-image:linear-gradient(45deg,rgb(214, 57, 198),transparent), url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFvd2RpbGRzd2oxZ2o4MDl5bWtpc3U4dDVwOXVxajZoNTA4N2hjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xzkvl1siB2rHSo/giphy.webp");
     height: 1100px;
     padding: 100px 0;
-    width: 600px;
+    max-width: 1100px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
 
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     /* margin-top:40px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -25,5 +30,24 @@ h1{
 
     /* instead use this! */
 
-    margin: 30px auto;
+     margin: 30px auto;  /*to center block element */
+}
+.btn{
+    background-color: rgb(167, 58, 138);
+    padding: 8px 15px;
+    color: rgb(6, 10, 10);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(61, 66, 157);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: bolder;
+
+
+}
+.btn-parent{
+    text-align: center;
+    margin:300px 0px;
 }
